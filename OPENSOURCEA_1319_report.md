@@ -18,13 +18,12 @@
 
 ## Open Source
 
-* 1. <소프트웨어 이름>
+*  1. 차선 감지 오픈소스 - 최제인
 
-  * 설명:
+  * 설명: tensorflow를 사용하여 IEEE IV 회의 논문 "Towards End-to-End Lane Detection: an Instance Segmentation Approach"를 기반으로 실시간 차선 감지를 위한 심층 신경망을 구현 (https://github.com/MaybeShewill-CV/lanenet-lane-detection)
+  *license : Apache License Version 2.0, January 2004 (http://www.apache.org/licenses/)
 
-
-
-
+	
 
 * 2. <소프트웨어 이름>
 

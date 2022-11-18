@@ -18,12 +18,12 @@
 
 ## Open Source
 
-1. 차선 감지 오픈소스 - 최제인
+1. **차선 감지 오픈소스 - 최제인**
 
   * 설명: tensorflow를 사용하여 IEEE IV 회의 논문 "Towards End-to-End Lane Detection: an Instance Segmentation Approach"를 기반으로 실시간 차선 감지를 위한 심층 신경망을 구현 (https://github.com/MaybeShewill-CV/lanenet-lane-detection)
-  *license : Apache License Version 2.0, January 2004 (http://www.apache.org/licenses/)
+    *license : **Apache License Version 2.0**, January 2004 (http://www.apache.org/licenses/)
 
-2. 장애물 인지 모듈(apollo) - 최재완
+2. **장애물 인지 모듈(apollo) - 최재완**
 
 - 설명
 
@@ -39,10 +39,10 @@
     - 인지 모듈은 여러 카메라, 레이더(전면 및 후면) 및 LiDAR를 사용하여 장애물을 인식하고 개별 트랙을 융합하여 최종 트랙 목록을 얻는 기능을 통합합니다. 장애물 하위 모듈은 장애물을 감지, 분류 및 추적합니다. 이 하위 모듈은 또한 장애물 움직임 및 위치 정보(예: 방향 및 속도)를 예측합니다. 차선의 경우 차선 파싱 픽셀을 후처리하여 차선 인스턴스를 구성하고 자차(L0, L1, R0, R1 등)에 대한 차선 상대 위치를 계산합니다.
       <br>
   - 라이선스
-    - apollo 프로젝트는 Apache License 2.0
+    - apollo 프로젝트는 **Apache License 2.0**
     - preception 디렉터리는 [readme](https://github.com/ApolloAuto/apollo/blob/r5.5.0/modules/perception/README.md) 파일 하단에 라이선스 고지가 있으나 어떤 라이선스인지는 모르겠음
 
-3. Autoware
+3. **Autoware-남윤호**
 
   * Autoware는 3차원 맵과 라이더 센서를 이용한 자차 위치 추정, 라이더 또는 카메라 기반 장애물 탐지, 벡터 맵 기반 경로 계획, 경로 추종 등 자율주행 S/W의 핵심 기능들을 제공한다. 
   * 자차 위치 추정은 GPS와 라이다 센서를 함께 사용함으로써 센티미터 수준의 정밀도를 제공한다. 
@@ -52,11 +52,13 @@
 
   *  Autoware는 20개 이상의 차량 모델들에 이식 되었고, 30개 이상의 국가들, 100개 이상의 회사들에 의해서 폭넓게 사용되고 있다. 
   * 현재 Autoware 소스코드는 나고야 대학에서 TIER IV라는 회사를 거쳐 Autoware Foundation이라는 비영리 기관으로 이관해서 관리되고 있다. 
-  * 이 오픈소스에서 사용되는 라이선스는 Apache License 2.0이다.
+  * 이 오픈소스에서 사용되는 라이선스는 **Apache License 2.0**이다.
 
-4. <소프트웨어 이름>
+4. **비상 정지 신호 (Project Aslan)-김현종**
 
-- 설명:
+- 설명: **Aslan**의 **비상 정지 신호**는 지정 경로 주행 중 실행된다. 자동 주행 차량이 지정된 경로로 주행 중에는 항상 차량의 모션 카메라로 주변의 장애물을 탐지하며 **장애물 감지 소프트웨어**와 연계하여 장애물과의 거리가 빠르게 좁혀지거나 갑작스러운 장애물의 출현을 통해 반응하도록 설계되어 있다.
+  **비상 정지 신호** 기능은 해당 기능이 동작할 경우 즉각적으로 차량 관제 시스템에 메시지를 보내 속력을 32.4 km/h로 제한되도록 한다. 
+- 라이센스 : **Apachi License 2.0**
 
 5. <소프트웨어 이름>
 
